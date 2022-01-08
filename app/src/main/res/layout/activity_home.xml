@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_your_favourite_categories_below"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="45dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:src="@drawable/fire"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:src="@drawable/fire" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="45dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:src="@drawable/fire"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/healthcare"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="45dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:src="@drawable/healthcare"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/alerts"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:src="@drawable/alert" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/weather"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="45dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:src="@drawable/weather"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/security"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="45dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:src="@drawable/security"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/traffic"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:src="@drawable/traffic" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/recreation"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="45dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:src="@drawable/recreation"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/school"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="45dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:src="@drawable/school"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/fitness"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:src="@drawable/fitness" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/transport"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="45dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:src="@drawable/traffic"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/others"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="45dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:src="@drawable/water"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/entertainment"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:src="@drawable/entertainment" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ideas"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="45dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:src="@drawable/ideas"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/topics_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:text="@string/done"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"/>
+
+
+</LinearLayout>
+</ScrollView>

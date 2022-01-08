@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "166105684524",
+    "project_id": "headzapp-5d5d4",
+    "storage_bucket": "headzapp-5d5d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166105684524:android:a7194402694b2c409f4f89",
+        "android_client_info": {
+          "package_name": "com.example.headzapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166105684524-agtn2t1fjls8eepmgtglrd0nj5lo91jd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.headzapp",
+            "certificate_hash": "c3ee1bd2d8924121fafd16f780c2eb2deed002eb"
+          }
+        },
+        {
+          "client_id": "166105684524-no6umbffir6f8turbkg0dunvutcq2ffv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2l3paqEY7_4Kpx7E6ncbb2DjNUXFATIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166105684524-no6umbffir6f8turbkg0dunvutcq2ffv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
