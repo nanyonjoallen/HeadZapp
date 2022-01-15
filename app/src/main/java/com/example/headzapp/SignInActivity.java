@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class SignInActivity extends AppCompatActivity {
     EditText pEmail, pPassword;
     Button signinBtn;
-    TextView pSignup;
+    TextView pSignup, forgotPassword;
     FirebaseAuth fAuth;
     ProgressBar progressBar;
 
@@ -47,7 +47,7 @@ public class SignInActivity extends AppCompatActivity {
 
                 //validate data
                 if (TextUtils.isEmpty(email)){
-                    pEmail.setError("Password is required");
+                    pEmail.setError("Emailvis required");
                     return;
                 }
                 if (TextUtils.isEmpty(password)){

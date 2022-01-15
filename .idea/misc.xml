@@ -19,7 +19,9 @@
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_try.xml" value="0.23052536231884058" />
         <entry key="app/src/main/res/layout/activity_verify.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/profile_bar.xml" value="0.2572463768115942" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.21" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />

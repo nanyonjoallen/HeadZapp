@@ -5,41 +5,41 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/profile_bar"
+        layout="@layout/profile_bar"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        app:cardCornerRadius="50dp"/>
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="3dp"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="150dp"
         android:layout_marginEnd="35dp"
         android:text="Hello, Welcome to the HeadZapp dashboard!"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="18sp"/>
+        android:textSize="16sp"
+        android:textStyle="bold" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="35dp"
         android:text="Please bear with us as we are still adding cool features to this dashboard"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:textSize="20sp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="40dp"
-        android:text="Powered by CODE DIVAS"
-        android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
-        android:textStyle="bold"
-        android:textSize="25sp"/>
+        android:textSize="18sp"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

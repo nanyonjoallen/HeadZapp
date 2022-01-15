@@ -9,7 +9,7 @@
     tools:context=".SignUpActivity">
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:layout_marginTop="5dp"
     android:orientation="vertical">
 
@@ -52,7 +52,7 @@
         android:ems="10"
         android:hint="@string/full_namelabel"
         android:inputType="textPersonName"
-        android:padding="14dp"
+        android:padding="13dp"
         android:text="@string/full_name"
         android:textColor="@color/black"
         android:textColorHighlight="#00000000"
@@ -73,10 +73,30 @@
         android:ems="10"
         android:hint="@string/email_address2"
         android:inputType="textEmailAddress"
-        android:padding="14dp"
+        android:padding="13dp"
         android:text="@string/email_address2"
         android:textColor="@color/black"
         android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="32dp"
+        android:autofillHints=""
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/ic_baseline_phone_24"
+        android:drawablePadding="14dp"
+        android:ems="10"
+        android:hint="@string/phone_number"
+        android:inputType="text"
+        android:padding="13dp"
+        android:text="@string/enter_phone_number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
 
     <EditText
         android:id="@+id/create_password"
@@ -111,7 +131,7 @@
         android:ems="10"
         android:hint="@string/confirm_password"
         android:inputType="textPassword"
-        android:padding="14dp"
+        android:padding="13dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black" />
 
