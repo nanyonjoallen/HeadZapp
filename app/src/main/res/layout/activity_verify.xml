@@ -62,20 +62,74 @@
         android:textSize="20sp"
         android:textStyle="normal" />
 
-    <EditText
-        android:id="@+id/inputNumber"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
         android:layout_marginTop="25dp"
-        android:background="@drawable/round_border"
-        android:ems="10"
-        android:hint="@string/_12468"
-        android:inputType="phone"
-        android:padding="14dp"
-        android:textAlignment="center"
-        android:autofillHints="" />
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:background="@drawable/round_border">
+
+
+        <EditText
+            android:id="@+id/OTP1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/OTP2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="center"  />
+
+        <EditText
+            android:id="@+id/OTP3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/OTP4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
 
     <Button
         android:id="@+id/verify_btn"
@@ -99,6 +153,7 @@
         android:layout_marginTop="15dp">
 
         <TextView
+            android:id="@+id/resend_message"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/didn_t_receive_otp_sms"
@@ -108,6 +163,7 @@
             android:textSize="16sp"/>
 
         <TextView
+            android:id="@+id/resendOTP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/resend_code"
@@ -131,6 +187,13 @@
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@color/black"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
 
 
 

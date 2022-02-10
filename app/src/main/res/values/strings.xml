@@ -26,7 +26,6 @@
     <string name="enter_otp_verification_code">Enter OTP verification code</string>
     <string name="please_enter_the_otp_sent_to_you">Please enter the OTP sent to you</string>
     <string name="selected_0778406544">0778406544</string>
-    <string name="_12468">12468</string>
     <string name="verify">VERIFY</string>
     <string name="didn_t_receive_the_otp_sms">Didn\'t receive the OTP sms?</string>
     <string name="resend_code">RESEND CODE</string>
@@ -36,7 +35,8 @@
     <string name="select_your_favourite_categories_below">Select your favourite categories below</string>
     <string name="done">Done</string>
     <string name="phone_number">Phone number</string>
-    <string name="enter_phone_number">Enter Phone number</string>
+    <string name="phone_numberM">Phone number</string>
+    <string name="logout">LOGOUT</string>
 
 
 </resources>

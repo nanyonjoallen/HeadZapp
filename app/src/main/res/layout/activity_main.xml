@@ -12,21 +12,17 @@
         android:id="@+id/profile_bar"
         layout="@layout/profile_bar"/>
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="50dp"
-        app:cardCornerRadius="50dp"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="35dp"
         android:text="Hello, Welcome to the HeadZapp dashboard!"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:textStyle="bold" />
     <TextView
         android:layout_width="wrap_content"
@@ -34,23 +30,25 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="35dp"
-        android:text="Please bear with us as we are still adding cool features to this dashboard"
+        android:text="Be patient as we are still adding cool features to this dashboard"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="18sp"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/log_out"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LOGOUT"
-        android:onClick="logout"
-        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="34dp"
         android:background="@drawable/round_bg"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"/>
-
-
+        android:onClick="logout"
+        android:text="@string/logout"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
 
 
 </LinearLayout>

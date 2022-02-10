@@ -18,33 +18,13 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity {
-    private TextView fullName;
-    private ImageView profile;
-    private FirebaseAuth fAuth;
-    private FirebaseUser firebaseUser;
-    private DatabaseReference databaseReference;
+    FirebaseAuth fAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        fullName = findViewById(R.id.TextPersonName);
-        profile= findViewById(R.id.profileImage);
-        fAuth = FirebaseAuth.getInstance();//database instance
-        firebaseUser = fAuth.getCurrentUser();
-        databaseReference = FirebaseDatabase.getInstance().getReference("Users").child(firebaseUser.getUid());
-        databaseReference.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
 
     }
     public void logout(View view){

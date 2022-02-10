@@ -90,7 +90,7 @@
             android:id="@+id/signin_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
             android:background="@drawable/round_border"
@@ -161,7 +161,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:background="@drawable/round_image"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="5dp"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
             android:adjustViewBounds="true">
@@ -188,7 +188,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
 
             <TextView
                 android:id="@+id/noAccount"
@@ -198,7 +199,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="60dp"
                 android:textStyle="bold"
-                android:textSize="15sp"
+                android:textSize="18sp"
                 android:textAlignment="viewStart"
                 android:textColor="@color/black"/>
 
@@ -212,7 +213,7 @@
                 android:textColor="@color/saffron"
                 android:textAlignment="viewEnd"
                 android:textStyle="bold"
-                android:textSize="15sp"/>
+                android:textSize="18sp"/>
 
         </LinearLayout>
 
